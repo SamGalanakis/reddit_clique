@@ -9,4 +9,3 @@ The network is then created using networkx in "make_network.py" to output [gephi
 
 
 ![Example network grapg](./example_graph_cropped.svg)
-<img src="./example_graph_cropped.svg">
