@@ -38,7 +38,7 @@ for key,val in unique_authors.items():
 
 df_strengths=pd.DataFrame(strength_cols,index=labels,columns=labels)
 df=pd.DataFrame(columns,index=labels,columns=labels)
-# with open(r'unique_authors_list_full.json', 'w') as fp:
-#     json.dump(data1, fp)
+with open(r'unique_authors_list_full.json', 'w') as fp:
+    json.dump(data1, fp)
 
 print("done")

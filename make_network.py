@@ -5,9 +5,9 @@ import numpy as np
 import json
 
 
-df=pd.read_csv(r"data\n_common_df.csv",index_col="Unnamed: 0")
-df_strengths=pd.read_csv(r"data\strengths_df.csv",index_col="Unnamed: 0")
-with open(r'data\n_unique_authors_full.json') as json_file: 
+df=pd.read_csv("data//n_common_df.csv",index_col="Unnamed: 0")
+df_strengths=pd.read_csv("data//strengths_df.csv",index_col="Unnamed: 0")
+with open('data//n_unique_authors_full.json') as json_file: 
     n_unique_authors = json.load(json_file) 
 
 labels=list(df.index)
@@ -35,9 +35,5 @@ for node1 in nodes:
 
 nx.write_gexf(G, "graph.gexf")
 position = nx.spring_layout(G,iterations=1000,scale=1.25)
-# position=nx.circular_layout(G)
-
-# plt.figure(1,figsize=(12,12))
-
 nx.draw(G, with_labels=True, node_color="skyblue",pos=position,font_size=8)
 plt.show()
