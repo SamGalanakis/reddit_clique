@@ -1,6 +1,10 @@
 
 import json
 
+
+#music subreddits by category taken from https://www.reddit.com/r/Music/wiki/musicsubreddits?v=7c76568c-7126-11e6-b679-0e0470a21327
+
+
 string1="""/r/baroque
 /r/classicalmusic
 /r/contemporary
@@ -595,6 +599,8 @@ string10="""/r/311
 /r/WeirdAl
 /r/yesband
 /r/Zappa"""
+
+
 list_of_strings=[string1,string2,string3,string4,string5,string6,string7,string8,string9,string10]
 types=["Classical","Electronic,","RockMetal","Hip-Hop","Decades","RegionCulture","Misc","Any_Genre","Community","ArtistBand"]
 
