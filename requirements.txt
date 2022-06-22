@@ -7,7 +7,7 @@ idna==2.9
 kiwisolver==1.2.0
 matplotlib==3.2.1
 networkx==2.4
-numpy==1.18.3
+numpy==1.22.0
 pandas==1.0.3
 praw==6.5.1
 prawcore==1.0.1
